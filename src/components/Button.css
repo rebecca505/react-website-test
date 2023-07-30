@@ -1,0 +1,60 @@
+:root {
+    --primary: #B09B1A;
+    --basline: #F4e27c;
+  }
+  
+  .btn {
+    padding: 8px 20px;
+    border-radius: 2xp;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn--primary {
+    background-color: var(--primary);
+    color: #F4e27c;
+    border: 1px solid var(--primary);
+  }
+  
+  .btn--baseline {
+    background-color: var(--basline);
+    color: #B09B1A;
+    border: 1px solid var(--basline);
+  }
+  
+  .btn--outline {
+    background-color: transparent;
+    color: #B09B1A;
+    padding: 8px 20px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+    white-space: nowrap;
+    box-sizing: border-box;
+    margin-right: 20px;
+  }
+  
+  .btn--outline:hover {
+    background: #B09B1A;
+    color: #FFF2A8;
+    transition: 250ms;
+  }
+  
+  .btn-medium {
+    padding: 8px 20px;
+    font-size: 20px;
+  }
+  
+  .btn-large {
+    padding: 12px 26px;
+    font-size: 20px;
+  }
+  
+  .btn-medium:hover, .btn-large:hover {
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: #242424;
+    transition: 250ms;
+  }
+
+  
