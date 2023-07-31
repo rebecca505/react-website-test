@@ -13,14 +13,20 @@
   
   .btn--primary {
     background-color: var(--primary);
-    color: #F4e27c;
+    color: var(--basline);
     border: 1px solid var(--primary);
   }
   
   .btn--baseline {
     background-color: var(--basline);
-    color: #B09B1A;
+    color: var(--primary);
     border: 1px solid var(--basline);
+  }
+
+  .btn--baseline:hover {
+    background-color: var(--primary);
+    color: #FFF2A8;
+    border: 1px solid var(--primary);
   }
   
   .btn--outline {
@@ -33,8 +39,25 @@
     box-sizing: border-box;
     margin-right: 20px;
   }
+
+  .btn--outline-screen {
+    background-color: transparent;
+    color: #B09B1A;
+    padding: 8px 20px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+    white-space: nowrap;
+    box-sizing: border-box;
+    margin-right: 20px;
+  }
   
   .btn--outline:hover {
+    background: #B09B1A;
+    color: #FFF2A8;
+    transition: 250ms;
+  }
+
+  .btn--outline-screen:hover {
     background: #B09B1A;
     color: #FFF2A8;
     transition: 250ms;
