@@ -25,19 +25,20 @@ function Footer() {
           </form>
         </div>
       </section>
+      
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
+            <Link to='/instructions'>How it works</Link>
             <Link to='/'>Testimonials</Link>
             <Link to='/'>Careers</Link>
             <Link to='/'>Investors</Link>
-            <Link to='/'>Terms of Service</Link>
+            <a href="javascript:window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley');"> Terms of Service </a>
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
+            <Link to='/signup'>Contact</Link>
             <Link to='/'>Support</Link>
             <Link to='/'>Destinations</Link>
             <Link to='/'>Sponsorships</Link>
@@ -51,15 +52,19 @@ function Footer() {
             <Link to='/'>Agency</Link>
             <Link to='/'>Influencer</Link>
           </div>
-          {/* <div class='footer-link-items'>
-            <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
-          </div> */}
+          <div class='footer-link-items'>
+            <h2>Pages</h2>
+            <Link to='/'>Home</Link>
+            <Link to='/about-me'>About Me</Link>
+            <Link to='/instructions'>Instructions</Link>
+            <Link to='/cards'>Cards</Link>
+            <Link to='/journal'>Journal</Link>
+            <Link to='/background'>Background</Link>
+            <Link to='/sign-up'>Sign Up</Link>
+          </div>
         </div>
       </div>
+
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
@@ -70,14 +75,10 @@ function Footer() {
           <small class='website-rights'>NDNM © 2023</small>
           <div class='social-icons'>
           <a href="javascript:window.open('https://www.facebook.com/rebecca.frey.1257');">
-            <font color="white">
-            <i class='fab fa-facebook-f' /> 
-            </font>
+            <i class='fab fa-facebook-f' />
           </a>
           <a href="javascript:window.open('https://www.instagram.com/beccaxfrey/');">
-            <font color="white">
             <i class='fab fa-instagram' /> 
-            </font>
           </a>
           {/* <a href="javascript:window.open('https://youtube.com');">
             <font color="white">
@@ -90,18 +91,15 @@ function Footer() {
             </font>
           </a> */}
           <a href="javascript:window.open('https://www.snapchat.com/add/becca44153');">
-            <font color="white">
             <i class='fab fa-snapchat' /> 
-            </font>
           </a>
           <a href="javascript:window.open('https://www.linkedin.com/in/beccafrey/');">
-            <font color="white">
             <i class='fab fa-linkedin' /> 
-            </font>
           </a>
           </div>
         </div>
       </section>
+
     </div>
   );
 }

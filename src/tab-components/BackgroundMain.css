@@ -1,0 +1,24 @@
+.background-main {
+    color: black;
+    padding: 4rem;
+    background: #fff;
+}
+
+.background-main > h1 {
+    text-align:center;
+    font-size: 50px;
+}
+
+/* .background-project {
+    padding: 0;
+    background-color: crimson;
+} */
+
+.background-project {
+background-color: #FFFBE5;
+    padding: 1rem 15px 2rem 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

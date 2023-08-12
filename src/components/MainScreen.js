@@ -3,13 +3,13 @@ import '../App.css';
 import { Button } from './Button';
 import './MainScreen.css';
 
-function HeroSection() {
+function MainSection() {
   return (
-    <div className='hero-container'>
+    <div className='main-container'>
       <video src='/videos/video-3.mp4' autoPlay loop muted />
       <h1>FIND YOURSELF</h1>
       <p>Learn about the new you</p>
-      <div className='hero-btns'>
+      <div className='main-btns'>
         <Button
           className='btns'
           buttonStyle='btn--outline'
@@ -30,4 +30,4 @@ function HeroSection() {
   );
 }
 
-export default HeroSection;
+export default MainSection;

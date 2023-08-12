@@ -1,0 +1,55 @@
+.cards-main {
+    color: black;
+    padding: 4rem;
+    background: #fff;
+}
+
+.cards-main > h1 {
+    text-align:center;
+    font-size: 50px;
+}
+
+	.cards-img1 {
+	float: left;
+	margin: 5px;
+    width: 451px;
+    height: 632px;
+    padding-right: 5px;
+	}
+    .cards-img2 {
+        float: right;
+        margin: 5px;
+        width: 451px;
+        height: 632px;
+        padding-left: 5px;
+        }
+
+    .cards-activity-page, .cards-activities {
+        display: flex;
+        align-items: center;
+    }
+
+.space {
+    line-height: 5px;
+}
+
+    @media screen and (max-width: 1280px) {
+    .cards-img1, .cards-img2 {
+        width: 357px;
+        height: 500px;
+    }
+}
+
+    @media screen and (max-width: 960px) {
+        .cards-img1, .cards-img2 {
+            width: 254px;
+            height: 356px;
+            }
+    }
+
+    @media screen and (max-width: 768px) {
+        .cards-img1, .cards-img2 {
+            width: 204px;
+            height: 286px;
+            }
+    }

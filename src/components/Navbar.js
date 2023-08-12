@@ -37,10 +37,44 @@ function Navbar() {
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
+          
+          <ul className={click ? 'nav-menu-bar active' : 'nav-menu-bar'}>
+          <li className='nav-item-bar'>
+              <Link to='/' className='nav-links-bar' onClick={closeMobileMenu}>
+                Home
+              </Link>
+            </li>
+            <li className='nav-item-bar'>
+              <Link to='/instructions' className='nav-links-bar' onClick={closeMobileMenu}>
+              Instructions
+              </Link>
+            </li>
+            <li className='nav-item-bar'>
+              <Link to='/cards' className='nav-links-bar' onClick={closeMobileMenu}>
+              Cards
+              </Link>
+            </li>
+            <li className='button-test'>
+            {button && <Button buttonStyle='btn--outline'>
+              SIGN UP
+            </Button>}
+            </li>
+
+          </ul>
+
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                 Home
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/about-me'
+                className='nav-links-small'
+                onClick={closeMobileMenu}
+              >
+                About Me
               </Link>
             </li>
             <li className='nav-item'>
@@ -54,8 +88,17 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/journal'
+                to='/cards'
                 className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Cards
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/journal'
+                className='nav-links-small'
                 onClick={closeMobileMenu}
               >
                 Journal
@@ -63,11 +106,11 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/cards'
-                className='nav-links'
+                to='/background'
+                className='nav-links-small'
                 onClick={closeMobileMenu}
               >
-                Cards
+                Background
               </Link>
             </li>
 
@@ -81,7 +124,10 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+          
+          <div className='menu-icon-mobile' onClick={handleClick}>
+            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+          </div>
         </div>
       </nav>
     </>
