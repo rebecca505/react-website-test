@@ -4,7 +4,7 @@ import './CardsMain.css';
 function CardsMain() {
   return (
     <div className='cards-main'>
-
+      
     <h1> ACTIVITY PAGE </h1>
     <div class='cards-activity-page'>
       <img className='cards-img1' src='/images/activity-boxes.png' alt='Activity boxes card'/>
@@ -34,6 +34,28 @@ function CardsMain() {
         If you prefer to print out the cards on paper, you can open this <a href="javascript:window.open('https://rb.gy/h5kwo')">Google Doc</a>.</p>
       <img className='cards-img2' src='/images/card-activities.png' alt='Casd back side'/>
     </div>
+
+    {/* <div class='arrowButtonContainer'>
+      <a onclick='start()'>
+        <button id='titleButton' type="button" class="btn btn-lg btn-outline-info mt-1 texth4">Click to Start</button>
+      </a>
+    </div> */}
+
+    {/* <div class='arrowButtonContainer'>
+      <a onclick="document.getElementById('gallery-container').scrollIntoView();">
+        <svg class='arrowButton' width="5em" height="5em" viewBox="0 0 16 16" className="bi bi-chevron-compact-down" fill="#F0EBD8" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"/>
+        </svg>
+      </a>
+    </div> */}
+
+    {/* <div class='arrowButtonContainer'>
+            <a onclick="document.getElementById('donate').scrollIntoView();">
+                <svg class='arrowButton' width="3em" height="3em" viewBox="0 0 16 16" className="bi bi-chevron-compact-down" fill="#F0EBD8" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"/>
+                </svg>
+            </a>
+        </div> */}
 
     </div>
   )

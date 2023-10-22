@@ -30,27 +30,26 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/instructions'>How it works</Link>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
-            <a href="javascript:window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley');"> Terms of Service </a>
+            <Link to='/background'> Background </Link>
+            <a href="javascript:window.open('https://docs.google.com/document/d/1pYcMgkySuSa2_3q9oNKI0E0zgcINkMM0qwEvGcZllbE/edit');">Rules</a>
+            {/*<Link to='/mentors'>Mentors</Link>*/}
+            <a href="javascript:window.open('https://docs.google.com/document/d/1ywr4QFK_GwdajKua2bZbIQeP7DWD2CNBCX6EXN4rWYs/edit');"> Annotated Bibliography </a>
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
-            <Link to='/signup'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
+            <a href="javascript:window.open('https://mail.google.com/mail/?view=cm&source=mailto&to=rlaurelfrey@gmail.com');">Gmail</a>
+            <a href="javascript:window.open('https://www.facebook.com/rebecca.frey.1257');">Facebook</a>
+            <a href="javascript:window.open('https://www.instagram.com/beccaxfrey/');">Instagram</a>
+            <a href="javascript:window.open('https://www.linkedin.com/in/beccafrey/');">LinkedIn</a>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
+            <h2>Resources</h2>
+            <a href="javascript:window.open('https://wheelofnames.com/a46-84h');">Spin the Wheel</a>
+            <a href="javascript:window.open('https://map.proxi.co/r/Dsu0efkT7hzpqujBhsuf');">Map of my Activities</a>
+            {/* <a href="javascript:window.open('');">x</a> */}
+            <a href="javascript:window.open('https://pcn.nparks.gov.sg/our-pcn/c2c/');">Coast to Coast Trail</a>
           </div>
           <div class='footer-link-items'>
             <h2>Pages</h2>
@@ -59,8 +58,7 @@ function Footer() {
             <Link to='/instructions'>Instructions</Link>
             <Link to='/cards'>Cards</Link>
             <Link to='/journal'>Journal</Link>
-            <Link to='/background'>Background</Link>
-            <Link to='/sign-up'>Sign Up</Link>
+            {/* <Link to='/background'>Background</Link> */}
           </div>
         </div>
       </div>
@@ -90,9 +88,9 @@ function Footer() {
             <i class='fab fa-twitter' /> 
             </font>
           </a> */}
-          <a href="javascript:window.open('https://www.snapchat.com/add/becca44153');">
+          {/* <a href="javascript:window.open('https://www.snapchat.com/add/becca44153');">
             <i class='fab fa-snapchat' /> 
-          </a>
+          </a> */}
           <a href="javascript:window.open('https://www.linkedin.com/in/beccafrey/');">
             <i class='fab fa-linkedin' /> 
           </a>

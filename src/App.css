@@ -11,10 +11,19 @@
 .cards,
 .sign-up,
 .about-me,
-.background {
+.background,
+.mentors {
   display: flex;
   height: 90vh;
   align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.cards-arrow {
+  display: flex;
+  height: 20vh;
+  align-items:baseline;
   justify-content: center;
   font-size: 3rem;
 }
@@ -85,6 +94,29 @@
   background-attachment: fixed;
 }
 
+.mentors {
+  background-image: url('../public/images/img-9.jpg');
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+  max-height: 500px;
+  background-attachment: fixed;
+}
+
+.cards-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 80%;
+  height: 30%;
+  text-align: center;
+}
+
 
 @media screen and (max-width: 960px) {
   .home,
@@ -92,7 +124,8 @@
 .journal,
 .sign-up,
 .about-me,
-.background {
+.background,
+.mentors {
     font-size: 70px;
   }
   .cards {
@@ -106,7 +139,8 @@
   .journal,
   .sign-up,
   .about-me,
-  .background {
+  .background,
+  .mentors {
       font-size: 50px;
     }
     .cards {

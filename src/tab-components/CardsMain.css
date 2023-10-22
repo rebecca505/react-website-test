@@ -33,6 +33,32 @@
     line-height: 5px;
 }
 
+.arrowButton{
+    color:black;
+}
+
+.arrowButton:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* .arrowButtonContainer{
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 120px;
+    z-index: 0;
+} */
+
+/* .arrowButtonContainer{
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 10px;
+} */
+
     @media screen and (max-width: 1280px) {
     .cards-img1, .cards-img2 {
         width: 357px;

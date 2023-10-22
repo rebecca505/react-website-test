@@ -104,15 +104,6 @@ function Navbar() {
                 Journal
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link
-                to='/background'
-                className='nav-links-small'
-                onClick={closeMobileMenu}
-              >
-                Background
-              </Link>
-            </li>
 
             <li>
               <Link
