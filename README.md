@@ -1,3 +1,10 @@
+# New Day New Me
+
+Developed using JavaScript and C++, this website is made to allow
+people from around the world acces the New Day New Me project. This
+project was developed as a result of a Singapore American School
+Catalyst capstone assignment.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
