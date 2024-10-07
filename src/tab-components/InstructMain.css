@@ -1,7 +1,8 @@
 .instruct-main {
-    padding: 4rem;
-    background: #fff;
-  }
+    background: white; /* Keep the main content white */
+    border-radius: 8px; /* Rounded corners for main section */
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
 
   .instruct-main > h1 {
     text-align: left;
@@ -47,6 +48,13 @@ h3 {
     padding: 10px;
     padding-bottom: 15px;
 }
+.instruct-list {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px; /* Space between sections */
+}
 
 .instruct-list > p,h3 {
   color: black;
@@ -77,18 +85,12 @@ h3 {
 }
 
 .instruct-list > img {
-  /* flex:1;
-    height: 180;
-    width: 150;   
-    margin: 10;
-    border-color: '#ccc';
-    border-width: 1; */
-    float: left;
-      margin: 5px;
-      width: 500px;
-   height: 600px;
-
+  border-radius: 10px; /* Rounded corners */
+  width: 100%; /* Make responsive */
+  max-width: 300px; /* Limit the size */
+  margin: 10px 5px; /* Spacing around images */
 }
+
 
 .instruct-pic1, .instruct-pic2 {
   height: 50%;
@@ -98,7 +100,9 @@ h3 {
 
 #HASH {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around; /* Even spacing between items */
+  align-items: center; /* Center items vertically */
+  margin: 20px 0; /* Space around the entire section */
 }
 
 @media screen and (max-width: 1280px) {
@@ -157,3 +161,35 @@ h3 {
     display: block;
     width: 100%;
   }
+  .link-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: white;
+    background-color: #007BFF; /* Primary color */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s;
+}
+
+.link-button:hover {
+    background-color: #0056b3; /* Darker shade for hover */
+}
+
+.tips-header {
+  display: flex;
+  flex-direction: column; /* Stack icon and title vertically */
+  align-items: center; /* Center items horizontally */
+  margin-bottom: 20px; /* Space below the header */
+}
+
+.tips-header h1b {
+  margin: 0; /* Remove default margins */
+  text-align: center; /* Center the icon */
+}
+
+.tips-header h1a {
+  text-align: center; /* Center the title */
+  margin-top: 5px; /* Space between the icon and title */
+}
