@@ -7,12 +7,14 @@ function AboutMeMain() {
     <div className='about-main'>
       <h1>Rebecca Frey</h1>
       <div class='about-intro'>
-        <p> The FitnessGram™ Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues.
-            The 20 meter pacer test will begin in 30 seconds.
-            Line up at the start.
-            The running speed starts slowly, but gets faster each minute after you hear this signal.
-            The test will begin on the word start.
-            On your mark, get ready, start. </p>
+        <p> Rebecca Frey is a sophomore at Barnard College, Columbia University, pursuing a Bachelor of Arts in Computer Science and Mathematics. 
+          She has extensive experience in data engineering and audiovisual support, having interned at Blassa, 
+          where she helped scale address verification and automated geocoding processes across Africa and the Middle East.
+          At Barnard, she supports AV technology for classrooms and events, ensuring smooth operations. 
+          Rebecca's leadership includes roles such as Head Outreach Chair for the Singapore Student Association, 
+          Internal Bonding Chair for the Taiwanese American Student Association, and Media Outreach Committee member for Girls Who Code. 
+          She has also excelled in her projects, winning ‘Best Beginner Hack’ at DivHacks and building a personal website. 
+          Skilled in Java, Python, and JavaScript, Rebecca combines her technical knowledge with a passion for community building and outreach.</p>
         <img className='about-img1' src='/images/rebecca.png' alt='Profile photo'/>
       </div>
       <br></br><br></br><br></br>
