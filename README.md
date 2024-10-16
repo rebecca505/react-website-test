@@ -44,7 +44,9 @@ Each page is designed to provide a seamless experience that integrates both the 
 ## Technologies Used
 
 **HTML**: Structure of the website.
+
 **CSS**: Styling to make the website visually appealing and easy to navigate.
+
 **Canva**: External link for users to order or download the physical deck of cards.
 
 # Getting Started with Create React App
