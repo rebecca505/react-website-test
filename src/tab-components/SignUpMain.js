@@ -10,4 +10,4 @@ function SignUpMain() {
   )
 }
 
-export default SignUpMain
+export default SignUpMain;
