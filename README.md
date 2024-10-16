@@ -1,9 +1,51 @@
-# New Day New Me
+# <bold> Unlocking... New Day, New Me </bold>
 
-Developed using JavaScript and C++, this website is made to allow
-people from around the world acces the New Day New Me project. This
-project was developed as a result of a Singapore American School
-Catalyst capstone assignment.
+## Overview
+
+**New Day New Me** is a project initially created as a Wix website to present my Catalyst card deck activity. The deck consists of 52 weekly challenges designed to help people accomplish New Year's resolutions in small, manageable steps. The project aims to encourage individuals to explore new experiences and grow in areas like Food, Exercise, Mindfulness, and Life Skills.
+
+For a fun side project, I recreated the website from scratch using **VSCode** with **HTML** and **CSS**, allowing me to further personalize the design and share the project in a more hands-on way. This website serves as a hub where users can access the card deck, download their own set, follow journal instructions, and learn about my project journey.
+
+## Features
+
+- **Journal**: A page where users can track their weekly reflections after completing activities.
+- **Online Deck**: A digital version of the card deck for easy access to the activities.
+- **Canva Link**: A link to Canva for users to download and order their own set of cards.
+- **Instructions**: A detailed guide on how to use the cards and the journal.
+- **About Me**: A personal page explaining why I created this project and how it evolved over time.
+
+# Development Process
+
+**Initial Idea**: The concept for the card deck was originally developed for my Catalyst project on Wix. I wanted to help people accomplish New Year’s resolutions by breaking them down into weekly, actionable tasks.
+
+**Recreation in VSCode**: To challenge myself further, I decided to code the entire site using HTML and CSS, rather than sticking with a drag-and-drop website builder. This allowed me to customize the site more deeply and improve my web development skills.
+
+**Design Choices**:
+
+- I used Coolors to choose a cohesive color palette that matches the theme of personal growth and adventure.
+- The layout is kept simple and clean to allow users to easily navigate through the journal, deck, and instructions.
+
+**Pages and Structure**:
+
+- **Home**: The landing page introduces the project and sets the tone for the experience. Users are welcomed with an overview of the NDNM concept, inspiring them to explore further.
+
+- **About Me**: This page provides insight into my personal journey and the motivation behind creating the New Day, New Me deck. It gives visitors an understanding of the project's roots and how my vision evolved into this final product.
+
+- **Instructions**: This section offers step-by-step guidance on how to use the card deck. It covers the philosophy behind each card and explains how users can incorporate the cards into their daily or weekly routines for personal development.
+
+- **Cards**: Here, users can view and interact with the full New Day, New Me deck. It includes detailed descriptions of each card's purpose and how it can be applied. Users can also learn about the card categories, themes, and how to use them effectively.
+
+- **Journal**: This is an interactive space where users can reflect on their progress. The journal encourages users to document their weekly challenges, lessons learned, and personal growth milestones, fostering a deeper connection with the deck.
+
+- **Sign Up**: This page allows users to join the NDNM community. Through the signup process, users can access exclusive content, receive updates, and become a part of the growing NDNM movement.
+
+Each page is designed to provide a seamless experience that integrates both the practical use of the card deck and the deeper reflection behind personal growth. The navigation bar ensures easy access to these sections, offering users a streamlined journey through the website.
+
+## Technologies Used
+
+**HTML**: Structure of the website.
+**CSS**: Styling to make the website visually appealing and easy to navigate.
+**Canva**: External link for users to order or download the physical deck of cards.
 
 # Getting Started with Create React App
 
