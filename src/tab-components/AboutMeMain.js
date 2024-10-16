@@ -33,7 +33,7 @@ function AboutMeMain() {
           Statistics show that most people give up on their New Year's resolutions within the first couple of months.
           By having a new resolution every week, if you do as much of the deck as you can, you technically still completed your New Year's resolution.
           <br></br><br></br>
-          &nbsp; To check out all of the activities in the card deck, check out my <a href="javascript:window.open('https://rb.gy/u7ruq')">Canva</a>.
+          &nbsp; To check out all of the activities in the card deck, check out my <a href="javascript:window.open('https://www.canva.com/design/DAEuEnxe4y4/V1hb9I0EiE5i-_mVuqVZAw/edit?utm_content=DAEuEnxe4y4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton')">Canva</a>.
           If you would like to print out your own cards, please check out the <Link to='/Cards'>"Cards"</Link> tab. 
         </p>
       </div>
