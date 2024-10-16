@@ -1,76 +1,140 @@
+/* Scoped journal styles to prevent interference with global styles */
 .journal-main {
-    color: black;
-    padding: 4rem;
-    background: #fff;
+    color: #333;
+    padding: 3rem; /* Adjusted padding for consistency with cards */
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
 }
 
 .journal-main > h1 {
-    text-align:center;
-    font-size: 50px;
+    text-align: center;
+    font-size: 45px;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+}
+
+.journal-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
 }
 
 .journal-img1 {
-	float: right;
-	margin: 5px;
-    width: 451px;
-    height: 575px;
-    padding-left: 5px;
+    max-width: 400px;
+    height: auto;
+    margin: 0 20px; /* Adjust margin for spacing */
+    border-radius: 10px;
+    object-fit: contain;
 }
 
-.journal-img2 {
-    float: left;
-    margin: 5px;
-    width: 450px;
-    height: 370px;
-    padding-right: 5px;
-}
-
-.journal-paper, .journal-online {
-    align-items: center;
-}
-
-.journal-paper, .journal-instructions {
+.journal-instructions {
     display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    line-height: 1.8;
+    font-size: 18px;
+    color: #555;
+}
+
+.journal-paper {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    justify-content: space-between; /* Space between text and image */
+    margin-bottom: 3rem; /* Add bottom margin for spacing */
 }
 
 .journal-middle {
     background-color: #FFFBE5;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 .journal-middle > h1 {
-    text-align:center;
-    font-size: 50px;
+    text-align: center;
+    font-size: 45px;
     background-color: #fff7cb;
+    padding: 1rem;
+    border-radius: 8px;
+    color: #2c3e50;
 }
 
+.journal-online {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align the elements */
+}
+
+.journal-img2 {
+    max-width: 400px;
+    height: auto;
+    margin: 0 20px; /* Adjust margin for spacing */
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+.journal-paper p, .journal-instructions p, .journal-online p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+}
+
+/* Specific styles for links within the journal section */
+.journal-main a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.journal-main a:hover {
+    text-decoration: underline;
+}
+
+/* Restore header button styles and prevent interference */
+.header-button, .header-link {
+    /* Reapply or inherit original button/link styles here */
+    font-size: 16px; /* Example: Use the original font size */
+    padding: 10px 15px; /* Original padding */
+    color: #fff; /* Or original color */
+    background-color: #3498db; /* Original button color */
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header-button:hover, .header-link:hover {
+    background-color: #2980b9; /* Add hover effect */
+}
+
+/* Media Queries */
 @media screen and (max-width: 1280px) {
-    .journal-img1 {
-        width: 353px;
-        height: 450px;
-    }
-    .journal-img2 {
-        width: 354px;
-        height: 291px;
+    .journal-img1, .journal-img2 {
+        max-width: 350px;
     }
 }
 
 @media screen and (max-width: 960px) {
-    .journal-img1 {
-        width: 255px;
-        height: 325px;
+    .journal-section {
+        flex-direction: column;
+        text-align: center; /* Center text for smaller screens */
     }
-    .journal-img2 {
-        width: 253px;
-        height: 208px;
+    
+    .journal-img1, .journal-img2 {
+        max-width: 300px;
+        margin-bottom: 2rem; /* Spacing for images in smaller screens */
     }
 }
+
 @media screen and (max-width: 768px) {
-    .journal-img1 {
-        width: 204px;
-        height: 260px;
+    .journal-section {
+        flex-direction: column;
+        text-align: center;
     }
-    .journal-img2 {
-        width: 202px;
-        height: 166px;
+    
+    .journal-img1, .journal-img2 {
+        max-width: 250px;
+        margin-bottom: 1.5rem;
     }
 }
