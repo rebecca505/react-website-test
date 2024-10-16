@@ -14,6 +14,7 @@ function MainSection() {
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
+          to='/instructions'
         >
           START
         </Button>
@@ -21,7 +22,8 @@ function MainSection() {
           className='btns'
           buttonStyle='btn--baseline'
           buttonSize='btn--large'
-          onClick={console.log('hey')}
+          onClick={() => console.log('hey')} // Wrapped in a function to avoid executing immediately
+          to='/sign-up' // Link to /sign-up
         >
           CLICK HERE <i className='far fa-play-circle' />
         </Button>
