@@ -18,23 +18,27 @@ function Navbar() {
         }
     };
 
-    useEffect(() => {
-        showButton();
-        window.addEventListener('resize', showButton);
-        return () => window.removeEventListener('resize', showButton); // Cleanup listener
-    }, []);
+  useEffect(() => {
+    showButton();
+    window.addEventListener('resize', showButton);
+    return () => window.removeEventListener('resize', showButton); // Cleanup listener
+}, []);
 
-    return (
-        <nav className='navbar'>
-            <div className='navbar-container'>
-                <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                    NDNM
-                </Link>
-                <div className='menu-icon' onClick={handleClick}>
-                    <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-                </div>
-
-                <ul className={click ? 'nav-menu-bar active' : 'nav-menu-bar'}>
+  return (
+    <>
+      <nav className='navbar'>
+        <div className='navbar-container'>
+          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+            NDNM
+          </Link>
+          <Link to="/" className="navbar-logo-mobile" onClick={closeMobileMenu}>
+            NEW DAY NEW ME
+          </Link>
+          <div className='menu-icon' onClick={handleClick}>
+            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+          </div>
+          
+          <ul className={click ? 'nav-menu-bar active' : 'nav-menu-bar'}>
                     <li className='nav-item-bar'>
                         <Link to='/' className='nav-links-bar' onClick={closeMobileMenu}>
                             Home
@@ -58,9 +62,68 @@ function Navbar() {
                         )}
                     </li>
                 </ul>
-            </div>
-        </nav>
-    );
+
+          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+            <li className='nav-item'>
+              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                Home
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/about-me'
+                className='nav-links-small'
+                onClick={closeMobileMenu}
+              >
+                About Me
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/instructions'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Instructions
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/cards'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Cards
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/journal'
+                className='nav-links-small'
+                onClick={closeMobileMenu}
+              >
+                Journal
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                to='/sign-up'
+                className='nav-links-mobile'
+                onClick={closeMobileMenu}
+              >
+                Sign Up
+              </Link>
+            </li>
+          </ul>
+          
+          <div className='menu-icon-mobile' onClick={handleClick}>
+            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+          </div>
+        </div>
+      </nav>
+    </>
+  );
 }
 
 export default Navbar;
