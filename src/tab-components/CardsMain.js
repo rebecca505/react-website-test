@@ -33,7 +33,8 @@ function CardsMain() {
       <div className='cards-section cards-activities'>
         <p className='cards-description'>
           If you don't have a physical copy of the cards, you can order a deck by clicking the <a href="javascript:window.open('https://rb.gy/h5kwo')">Google Doc</a>. 
-          For printed versions, visit <a href="javascript:window.open('https://www.makeplayingcards.com/design/custom-blank-card.html')">makeplayingcards.com</a>.
+          For printed versions, visit <a href="javascript:window.open('https://www.makeplayingcards.com/design/custom-blank-card.html')">makeplayingcards.com </a> 
+          and use the following <a href="javascript:window.open('https://www.canva.com/design/DAEuEnxe4y4/V1hb9I0EiE5i-_mVuqVZAw/edit?utm_content=DAEuEnxe4y4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton')">Canva template</a>.
         </p>
         <img className='cards-img' src='/images/card-activities.png' alt='Card activities'/>
       </div>
