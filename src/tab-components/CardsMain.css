@@ -1,81 +1,72 @@
 .cards-main {
-    color: black;
-    padding: 4rem;
-    background: #fff;
+    color: #333;
+    padding: 3rem;
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
 }
 
-.cards-main > h1 {
-    text-align:center;
-    font-size: 50px;
-}
-
-	.cards-img1 {
-	float: left;
-	margin: 5px;
-    width: 451px;
-    height: 632px;
-    padding-right: 5px;
-	}
-    .cards-img2 {
-        float: right;
-        margin: 5px;
-        width: 451px;
-        height: 632px;
-        padding-left: 5px;
-        }
-
-    .cards-activity-page, .cards-activities {
-        display: flex;
-        align-items: center;
-    }
-
-.space {
-    line-height: 5px;
-}
-
-.arrowButton{
-    color:black;
-}
-
-.arrowButton:hover{
-    transform: scale(1.1);
-    cursor: pointer;
-}
-
-/* .arrowButtonContainer{
-    margin: 0 auto;
-    position: absolute;
+.section-title {
     text-align: center;
-    width: 100%;
-    bottom: 120px;
-    z-index: 0;
-} */
+    font-size: 45px;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+}
 
-/* .arrowButtonContainer{
-    margin: 0 auto;
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    bottom: 10px;
-} */
+.cards-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
 
-    @media screen and (max-width: 1280px) {
-    .cards-img1, .cards-img2 {
-        width: 357px;
-        height: 500px;
+.cards-img {
+    max-width: 400px;
+    height: auto;
+    margin: 0 20px;
+}
+
+.cards-description {
+    max-width: 600px;
+    line-height: 1.8;
+    font-size: 18px;
+    color: #555;
+}
+
+.cards-description a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.cards-description a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1280px) {
+    .cards-img {
+        max-width: 350px;
     }
 }
 
-    @media screen and (max-width: 960px) {
-        .cards-img1, .cards-img2 {
-            width: 254px;
-            height: 356px;
-            }
+@media screen and (max-width: 960px) {
+    .cards-section {
+        flex-direction: column;
+        text-align: center;
     }
+    
+    .cards-img {
+        max-width: 300px;
+        margin-bottom: 2rem;
+    }
+}
 
-    @media screen and (max-width: 768px) {
-        .cards-img1, .cards-img2 {
-            width: 204px;
-            height: 286px;
-            }
+@media screen and (max-width: 768px) {
+    .cards-section {
+        flex-direction: column;
+        text-align: center;
     }
+    
+    .cards-img {
+        max-width: 250px;
+        margin-bottom: 1.5rem;
+    }
+}
