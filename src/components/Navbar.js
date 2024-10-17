@@ -105,6 +105,15 @@ function Navbar() {
                 Journal
               </Link>
             </li>
+            <li className='nav-item'>
+              <Link
+                to='/form'
+                className='nav-links-small'
+                onClick={closeMobileMenu}
+              >
+                Activity Form
+              </Link>
+            </li>
 
             <li>
               <Link
