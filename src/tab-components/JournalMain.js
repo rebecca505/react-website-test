@@ -1,5 +1,6 @@
 import React from 'react';
 import './JournalMain.css';
+import { Link } from 'react-router-dom';
 
 function JournalMain() {
   return (
@@ -35,7 +36,9 @@ function JournalMain() {
           <a href="javascript:window.open('https://www.canva.com/design/DAEuEnxe4y4/V1hb9I0EiE5i-_mVuqVZAw/edit?utm_content=DAEuEnxe4y4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton')"> Canva project </a> 
           where you can order your own deck of cards.
           The website I used to print out my cards is <a href="javascript:window.open('https://www.makeplayingcards.com/design/custom-blank-card.html')">makeplayingcards.com</a> (based in China).
-          If you prefer to print out the cards on paper, you can open this <a href="javascript:window.open('https://rb.gy/h5kwo')">Google Doc</a>.</p>
+          If you prefer to print out the cards on paper, you can open this <a href="javascript:window.open('https://rb.gy/h5kwo')">Google Doc</a>.
+          You can also access my <Link to='/form'> form </Link> here.
+          </p>
       </div>
     </div>
   );

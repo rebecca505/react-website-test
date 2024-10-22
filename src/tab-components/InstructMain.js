@@ -27,7 +27,7 @@ function InstructMain() {
             <Link to='/journal' className='link-button'>Print out a physical page</Link>
           </span>
           <span>
-            <Link to='/journal' className='link-button'>Use a Google form</Link>
+            <Link to='/form' className='link-button'>Use a Google form</Link>
           </span>
         </div>
 
